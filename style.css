@@ -1,0 +1,285 @@
+/* font-family: 'Flavors', cursive; -
+font-family: 'Henny Penny', cursive; +
+font-family: 'Nosifer', cursive; + */
+body {
+    background-image: url(background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    
+}
+
+.heading {
+    display: flex;    
+    flex-direction: column;
+    margin-top: 30px;
+}
+.headingDown {
+    display: flex;    
+    flex-direction: column;
+}
+.hang {
+    font-family: 'Nosifer', cursive;
+    color: red;
+    background-color: rgba(252, 4, 4, 0.199);
+    border: 1px solid red;
+    margin-top: 1400px; 
+}
+h1 {
+    font-size: 35px;
+    font-family: 'Nosifer', cursive;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 15px;
+    border: 1px solid black;
+    align-self: center;
+}
+p {
+    font-size: 30px;
+    font-family: 'Henny Penny', cursive;
+    color: rgb(247, 250, 75);
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 10px;
+    align-self: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.halloween {
+    background-color:rgba(0, 0, 0, 0.35);
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    font-family: 'Henny Penny', cursive;
+    font-size: 40px;
+    color:rgb(247, 250, 75);
+}
+h4 {
+    font-family: 'Henny Penny', cursive;
+    font-size: 30px;
+    color:rgb(247, 250, 75);
+}
+
+.witch {
+    display: flex;
+    justify-content: center;
+    
+}
+.witchSmoll {
+    display: none;
+}
+
+.fun {
+    font-family: 'Flavors', cursive;
+    font-size: 50px;
+    color:rgb(253, 62, 4);    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#myButton, #myButtonTwo {
+    padding: 10px;
+    background-color: black;
+    border-radius: 50%;
+    border:black 2px solid;
+}
+
+section {
+    width: auto;
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+section.countdown {
+    background-image: url(background4.jpg) no-repeat center / cover;
+    background-attachment: fixed;
+    background-size: 100vh;
+    
+}
+
+section.sectionCostume {
+    background: url(back-monster1.jpg) no-repeat center / cover;
+    background-attachment: fixed;
+    margin-top: 700px;
+    height: 680px;
+    box-shadow: inset  0 -15px 30px -15px rgba(34, 34, 34, 0.829), 0 0 30px 30px rgba(253, 13, 13, 0.507);
+}
+#costumes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.chooseCostume {
+    margin-left: 800px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 300px;
+}
+.hangBtn {
+    font-family: 'Henny Penny', cursive;
+    font-size: 27px;
+    text-shadow: chartreuse ;
+    font-weight: bolder;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 1px solid red;
+    padding: 2px;
+}
+#img {
+    margin-left: 270px;
+    margin-top: -130px;
+    width:320px;
+    height: auto;
+    height:intrinsic;  
+}
+
+@media all and (max-width: 1050px) {
+    .hang {
+        margin-top: 2300px; 
+    }
+    .chooseCostume {
+        align-self: center;
+        justify-self: center;
+        margin-left: 50px;
+    }
+    #img {
+        margin-left: 50px;
+        margin-top: -70px;
+        width:370px;
+        height: auto;
+        height:intrinsic;  
+    }
+    section.sectionCostume {
+        height: 1000px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 25px;
+    }
+    
+    p {
+        font-size: 22px;
+    }
+    .halloween {
+        height: 250px;
+        width: 300px;
+        
+    }
+    .witch {
+        width: 500px; 
+        height:intrinsic;         
+    }
+    .hang {
+        margin-top: 1600px; 
+    }
+    #img {
+        margin-left: 30px;
+        margin-top: -50px;
+        width:340px;
+        height: auto;
+        height:intrinsic;  
+    }
+    section.sectionCostume {
+        
+        height: 800px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    body {
+        background-image: url(backgrSmoll_2.jpg);
+    }    
+
+    h1 {
+        font-size: 13px;        
+    }
+    p {
+        font-size: 15px;
+    }
+    .witch {
+        display:none;
+    }
+    .halloween {
+        height: 250px;
+        width: 120px;
+    }
+    h3, h4 {        
+        font-size: 20px;        
+    }    
+    
+    .witchSmoll {
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        width: 350px; 
+        height:intrinsic;         
+    }
+    #myButton, #myButtonTwo {
+        padding: 5px;
+    } 
+    .headingDown {
+        margin-top: 0px;    
+    } 
+    #img {
+        margin-left: 20px;
+        margin-top: 0px;
+        width:300px;
+        height: auto;
+        height:intrinsic;  
+    }
+    .chooseCostume {
+        align-self: center;
+        justify-self: center;
+        margin-left: 10px;
+    } 
+    .hang {
+        margin-top: 1500px; 
+    } 
+
+}
+/* Galaxy Fold (280) */
+@media all and (max-width: 290px) {
+    .witch {
+        display:none;
+    }
+    .witchSmoll {
+        
+        height: 170px;
+        width: 280px; 
+        height:intrinsic;         
+    }
+    h1 {
+        font-size: 12px;        
+    }
+    #img {
+        height:intrinsic;  
+        width:200px;
+        height: auto;
+    }
+    .hang {
+        margin-top: 1300px; 
+    } 
+    .hangBtn {
+        font-size: 20px;
+    }
+    .chooseCostume {
+        width: 250px;
+    }
+}
