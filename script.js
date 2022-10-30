@@ -47,7 +47,7 @@ buttonTwo.addEventListener("click", function() {
 });
 
 
-const images = ['1c.png', '2c.png', '3c.png', '4c.png', '5c.png', '6c.png', '7c.png', '8c.png', '9c.png', '10c.png', '11c.png', '12c.png', '14c.png', '15c.png', '16c.png', '17c.png', '18c.png', '19c.png', '20c.png', '21c.png', '22c.png', '23c.png', '24c.png', '25c.png', '27c.png', '28c.png', '29c.png', '30c.png', '31c.png','32c.png', '33c.png', '34c.png', '36c.png', '37c.png', '38c.png', '39c.png', '40c.png', '41c.png', '42c.png', '43c.png', '44c.png', '45c.png'];
+const images = ['pic/1c.png', 'pic/2c.png', 'pic/3c.png', 'pic/4c.png', 'pic/5c.png', 'pic/6c.png', 'pic/7c.png', 'pic/8c.png', 'pic/9c.png', 'pic/10c.png', 'pic/11c.png', 'pic/12c.png', 'pic/14c.png', 'pic/15c.png', 'pic/16c.png', 'pic/17c.png', 'pic/18c.png', 'pic/19c.png', 'pic/20c.png', 'pic/21c.png', 'pic/22c.png', 'pic/23c.png', 'pic/24c.png', 'pic/25c.png', 'pic/27c.png', 'pic/28c.png', 'pic/29c.png', 'pic/30c.png', 'pic/31c.png','pic/32c.png', 'pic/33c.png', 'pic/34c.png', 'pic/36c.png', 'pic/37c.png', 'pic/38c.png', 'pic/39c.png', 'pic/40c.png', 'pic/41c.png', 'pic/42c.png', 'pic/43c.png', 'pic/44c.png', 'pic/45c.png'];
 
 const costumes = document.querySelector("#costumes");
 const img = costumes.querySelector("#img");
