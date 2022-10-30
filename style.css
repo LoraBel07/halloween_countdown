@@ -1,8 +1,6 @@
-/* font-family: 'Flavors', cursive; -
-font-family: 'Henny Penny', cursive; +
-font-family: 'Nosifer', cursive; + */
+
 body {
-    background-image: url(background2.jpg);
+    background-image: url(pic/background2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -105,14 +103,14 @@ section {
     
 }
 section.countdown {
-    background-image: url(background4.jpg) no-repeat center / cover;
+    background-image: url(pic/background4.jpg) no-repeat center / cover;
     background-attachment: fixed;
     background-size: 100vh;
     
 }
 
 section.sectionCostume {
-    background: url(back-monster1.jpg) no-repeat center / cover;
+    background: url(pic/back-monster1.jpg) no-repeat center / cover;
     background-attachment: fixed;
     margin-top: 700px;
     height: 680px;
@@ -204,7 +202,7 @@ section.sectionCostume {
 
 @media all and (max-width: 500px) {
     body {
-        background-image: url(backgrSmoll_2.jpg);
+        background-image: url(pic/backgrSmoll_2.jpg);
     }    
 
     h1 {
