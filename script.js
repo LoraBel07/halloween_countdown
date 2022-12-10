@@ -1,5 +1,5 @@
 function halloweenCountdown() {
-    const partyDate = new Date ("October 31, 2022 19:00");
+    const partyDate = new Date ("October 31, 2023 19:00");
     const now = new Date();
     const diff = partyDate - now;
     console.log(diff);
